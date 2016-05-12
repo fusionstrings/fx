@@ -1,0 +1,21 @@
+@mixin size($width, $height: $width) { /* If height is omitted, it falls back to the width value */
+  width: $width;
+  height: $height;
+}
+
+.click-effect {
+  &:after {
+    @include size(200px);
+    border-radius: 50%;
+    content: '';
+    cursor: pointer;
+    opacity: 0;
+    margin: -100px 0 0 -100px;
+    pointer-events: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 100;
+    animation: circle 0.5s forwards;
+  }
+}
