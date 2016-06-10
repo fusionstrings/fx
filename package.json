@@ -1,0 +1,27 @@
+{
+  "name": "fx",
+  "version": "1.0.0",
+  "description": "Effects library",
+  "main": "clickEffectPlugin/jquery.click-effect.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pbarrientos/fx.git"
+  },
+  "keywords": [
+    "Effects",
+    "jQuery"
+  ],
+  "dependencies": {
+		"jquery": "^3.0.0"
+	},
+  "author": "Patricio Barrientos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pbarrientos/fx/issues"
+  },
+  "homepage": "https://github.com/pbarrientos/fx#readme",
+  "registry": "npm"
+}
